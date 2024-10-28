@@ -66,5 +66,17 @@ delivering efficient bug fixes in agile teams.
 **Belarusian State Economic University, Minsk — Bachelor**\
 SEP 2004- JUN 2009\
 Economist specializing in the stock market
+## Code example:
+```
+function minValue(arr,n) {
+  const res = [];
+  for(i=0; i <= arr.length-(n); i++){
+    const minValue = Math.min.apply(null, arr.slice(i, i+n));
+    res.push(minValue)
+  }
+  return res;
+}
+```
 ## Languages: 
-English- B1
+English- B1\
+Russian - Native
